@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.hbq2.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "SuiteGameHud"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "SuiteMusicTracker"
+  ]
+}

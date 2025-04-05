@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "suitehud",
+	"version": "${version}",
+	"name": "S.U.I.T.E. HUD",
+	"description": "Simple. Unobtrusive. Informative. Tweakable. Effective. HUD.",
+	"authors": [
+		"HBQ2"
+	],
+	"contact": {
+		"sources": "https://github.com/hbq2-dev/minecraft-suite-hud",
+		"issues": "https://github.com/hbq2-dev/minecraft-suite-hud/issues"
+	},
+	"icon": "assets/suite_logo_large.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"dev.hbq2.SuiteHud"
+		],
+		"client": [
+			"dev.hbq2.SuiteHudClient"
+		],
+		"modmenu": [
+			"dev.hbq2.config.SuiteConfigMenuIntegration"
+		]
+	},
+	"mixins": [
+		"suitehud.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${fabric_loader_version}",
+		"minecraft": "${minecraft_version}",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=${fabric_kotlin_version}"
+	},
+	"suggests": {
+		"cloth-config2": "^${cloth_config_version}",
+		"modmenu": "^${mod_menu_version}"
+	}
+}

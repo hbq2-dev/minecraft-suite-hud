@@ -1,0 +1,50 @@
+{
+  "text.autoconfig.suiteconfig.title": "S.U.I.T.E. HUD",
+  "text.autoconfig.suiteconfig.category.coordinates": "Coordinates",
+  "text.autoconfig.suiteconfig.category.gameTime": "Game Time",
+
+  "text.autoconfig.suiteconfig.option.coordinates": "Coordinates",
+  "text.autoconfig.suiteconfig.option.coordinates.visible": "Visible",
+  "text.autoconfig.suiteconfig.option.coordinates.position": "Position",
+  "text.autoconfig.suiteconfig.option.coordinates.textColor": "Text Color",
+
+  "text.autoconfig.suiteconfig.option.gameTime": "Game Time",
+  "text.autoconfig.suiteconfig.option.gameTime.visible": "Visible",
+  "text.autoconfig.suiteconfig.option.gameTime.position": "Position",
+  "text.autoconfig.suiteconfig.option.gameTime.textColor": "Text Color",
+
+  "text.autoconfig.suiteconfig.option.actualTime": "Actual Time",
+  "text.autoconfig.suiteconfig.option.actualTime.visible": "Visible",
+  "text.autoconfig.suiteconfig.option.actualTime.position": "Position",
+  "text.autoconfig.suiteconfig.option.actualTime.textColor": "Text Color",
+
+  "text.autoconfig.suiteconfig.option.biome": "Biome",
+  "text.autoconfig.suiteconfig.option.biome.visible": "Visible",
+  "text.autoconfig.suiteconfig.option.biome.position": "Position",
+  "text.autoconfig.suiteconfig.option.biome.textColor": "Text Color",
+
+  "text.autoconfig.suiteconfig.option.music": "Music",
+  "text.autoconfig.suiteconfig.option.music.visible": "Visible",
+  "text.autoconfig.suiteconfig.option.music.position": "Position",
+  "text.autoconfig.suiteconfig.option.music.textColor": "Text Color",
+
+  "text.autoconfig.suiteconfig.option.players": "Players Online",
+  "text.autoconfig.suiteconfig.option.players.visible": "Visible",
+  "text.autoconfig.suiteconfig.option.players.position": "Position",
+  "text.autoconfig.suiteconfig.option.players.textColor": "Text Color",
+
+  "text.autoconfig.suiteconfig.option.latency": "Latency",
+  "text.autoconfig.suiteconfig.option.latency.visible": "Visible",
+  "text.autoconfig.suiteconfig.option.latency.position": "Position",
+  "text.autoconfig.suiteconfig.option.latency.textColor": "Text Color",
+
+  "text.autoconfig.suiteconfig.option.fps": "FPS",
+  "text.autoconfig.suiteconfig.option.fps.visible": "Visible",
+  "text.autoconfig.suiteconfig.option.fps.position": "Position",
+  "text.autoconfig.suiteconfig.option.fps.textColor": "Text Color",
+
+  "text.autoconfig.suiteconfig.option.gpu": "GPU",
+  "text.autoconfig.suiteconfig.option.gpu.visible": "Visible",
+  "text.autoconfig.suiteconfig.option.gpu.position": "Position",
+  "text.autoconfig.suiteconfig.option.gpu.textColor": "Text Color"
+}
