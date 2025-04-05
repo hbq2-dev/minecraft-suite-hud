@@ -9,9 +9,9 @@ import dev.hbq2.hud.SuiteData.coordinates
 import dev.hbq2.hud.SuiteData.currentMusic
 import dev.hbq2.hud.SuiteData.fps
 import dev.hbq2.hud.SuiteData.gameTime
-import dev.hbq2.hud.SuiteData.latencies
 import dev.hbq2.hud.SuiteData.numberOfPlayers
 import dev.hbq2.hud.SuiteData.pingTitle
+import dev.hbq2.hud.SuiteData.pings
 import dev.hbq2.utils.Formatter.capitalizeWords
 import me.shedaniel.autoconfig.AutoConfig
 import net.minecraft.client.MinecraftClient
@@ -53,12 +53,12 @@ object SuiteLoader {
                 true,
             )
             if (p.dataType == DataType.Latency) {
-                latencies.forEach {
+                pings.forEach {
                     context.drawText(
                         textRenderer,
                         it,
                         x,
-                        y + (topLeft.indexOf(p) + latencies.indexOf(it) + 1) * (textHeight + 2),
+                        y + (topLeft.indexOf(p) + pings.indexOf(it) + 1) * (textHeight + 2),
                         p.textColor,
                         true,
                     )
@@ -78,12 +78,12 @@ object SuiteLoader {
                 true,
             )
             if (p.dataType == DataType.Latency) {
-                latencies.forEach {
+                pings.forEach {
                     context.drawText(
                         textRenderer,
                         it,
                         (context.scaledWindowWidth / 2) - (textRenderer.getWidth(it) / 2),
-                        y + (topCenter.indexOf(p) + latencies.indexOf(it) + 1) * (textHeight + 2),
+                        y + (topCenter.indexOf(p) + pings.indexOf(it) + 1) * (textHeight + 2),
                         p.textColor,
                         true,
                     )
@@ -104,12 +104,12 @@ object SuiteLoader {
             )
 
             if (p.dataType == DataType.Latency) {
-                latencies.forEach {
+                pings.forEach {
                     context.drawText(
                         textRenderer,
                         it,
                         (context.scaledWindowWidth - textRenderer.getWidth(it) - x),
-                        y + (topRight.indexOf(p) + latencies.indexOf(it) + 1) * (textHeight + 2),
+                        y + (topRight.indexOf(p) + pings.indexOf(it) + 1) * (textHeight + 2),
                         p.textColor,
                         true,
                     )
@@ -120,7 +120,7 @@ object SuiteLoader {
         val bottomLeft = getConfigsForPosition(DataPosition.BottomLeft)
         var numberOfLines = bottomLeft.size
         if (bottomLeft.any { it.dataType == DataType.Latency }) {
-            numberOfLines += latencies.size
+            numberOfLines += pings.size
         }
 
         // Extra padding of 40 from bottom
@@ -136,12 +136,12 @@ object SuiteLoader {
                 true,
             )
             if (p.dataType == DataType.Latency) {
-                latencies.forEach {
+                pings.forEach {
                     context.drawText(
                         textRenderer,
                         it,
                         x,
-                        startingY + (bottomLeft.indexOf(p) + latencies.indexOf(it) + 1) * (textHeight + 2),
+                        startingY + (bottomLeft.indexOf(p) + pings.indexOf(it) + 1) * (textHeight + 2),
                         p.textColor,
                         true,
                     )
@@ -160,12 +160,12 @@ object SuiteLoader {
                 true,
             )
             if (p.dataType == DataType.Latency) {
-                latencies.forEach {
+                pings.forEach {
                     context.drawText(
                         textRenderer,
                         it,
                         (context.scaledWindowWidth / 2) - (textRenderer.getWidth(getTextForConfigType(p)) / 2),
-                        startingY + (bottomCenter.indexOf(p) + latencies.indexOf(it) + 1) * (textHeight + 2),
+                        startingY + (bottomCenter.indexOf(p) + pings.indexOf(it) + 1) * (textHeight + 2),
                         p.textColor,
                         true,
                     )
@@ -184,12 +184,12 @@ object SuiteLoader {
                 true,
             )
             if (p.dataType == DataType.Latency) {
-                latencies.forEach {
+                pings.forEach {
                     context.drawText(
                         textRenderer,
                         it,
                         (context.scaledWindowWidth - textRenderer.getWidth(it) - x),
-                        startingY + (bottomRight.indexOf(p) + latencies.indexOf(it) + 1) * (textHeight + 2),
+                        startingY + (bottomRight.indexOf(p) + pings.indexOf(it) + 1) * (textHeight + 2),
                         p.textColor,
                         true,
                     )

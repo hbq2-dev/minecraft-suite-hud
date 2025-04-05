@@ -33,7 +33,7 @@
   "text.autoconfig.suiteconfig.option.players.position": "Position",
   "text.autoconfig.suiteconfig.option.players.textColor": "Text Color",
 
-  "text.autoconfig.suiteconfig.option.latency": "Latency",
+  "text.autoconfig.suiteconfig.option.latency": "Pings",
   "text.autoconfig.suiteconfig.option.latency.visible": "Visible",
   "text.autoconfig.suiteconfig.option.latency.position": "Position",
   "text.autoconfig.suiteconfig.option.latency.textColor": "Text Color",
@@ -41,5 +41,5 @@
   "text.autoconfig.suiteconfig.option.fps": "FPS",
   "text.autoconfig.suiteconfig.option.fps.visible": "Visible",
   "text.autoconfig.suiteconfig.option.fps.position": "Position",
-  "text.autoconfig.suiteconfig.option.fps.textColor": "Text Color",
+  "text.autoconfig.suiteconfig.option.fps.textColor": "Text Color"
 }

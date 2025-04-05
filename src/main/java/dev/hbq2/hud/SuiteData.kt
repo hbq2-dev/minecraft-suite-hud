@@ -127,11 +127,11 @@ object SuiteData {
     @JvmStatic
     val pingTitle: Text
         get() {
-            return Text.of("Latency:") as MutableText
+            return Text.of("Pings:") as MutableText
         }
 
     @JvmStatic
-    val latencies: List<String>
+    val pings: List<String>
         get() {
             return client.networkHandler
                 ?.playerList
