@@ -151,14 +151,6 @@ object SuiteData {
             )
 
     @JvmStatic
-    val gpu: Text
-        get() =
-            Formatter.stringToText(
-                "GPU: §l%s",
-                client.gpuUtilizationPercentage,
-            )
-
-    @JvmStatic
     val numberOfPlayers: Text
         get() {
             val num =

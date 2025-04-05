@@ -105,17 +105,6 @@ class SuiteConfig : ConfigData {
         override var dataType: DataType = DataType.FPS
     }
 
-    class GPUConfig : ConfigType {
-        override var visible: Boolean = true
-        override var position: DataPosition = DataPosition.TopLeft
-
-        @ColorPicker
-        override var textColor: Int = 16776960
-
-        @ConfigEntry.Gui.Excluded
-        override var dataType: DataType = DataType.GPU
-    }
-
     @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
     var coordinates: CoordinatesConfig = CoordinatesConfig()
 
@@ -139,7 +128,4 @@ class SuiteConfig : ConfigData {
 
     @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
     var fps: FPSConfig = FPSConfig()
-
-    @ConfigEntry.Gui.CollapsibleObject(startExpanded = true)
-    var gpu: GPUConfig = GPUConfig()
 }

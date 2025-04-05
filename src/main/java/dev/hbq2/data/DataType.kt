@@ -9,5 +9,4 @@ enum class DataType {
     Players,
     Latency,
     FPS,
-    GPU,
 }

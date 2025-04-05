@@ -42,9 +42,4 @@
   "text.autoconfig.suiteconfig.option.fps.visible": "Visible",
   "text.autoconfig.suiteconfig.option.fps.position": "Position",
   "text.autoconfig.suiteconfig.option.fps.textColor": "Text Color",
-
-  "text.autoconfig.suiteconfig.option.gpu": "GPU",
-  "text.autoconfig.suiteconfig.option.gpu.visible": "Visible",
-  "text.autoconfig.suiteconfig.option.gpu.position": "Position",
-  "text.autoconfig.suiteconfig.option.gpu.textColor": "Text Color"
 }

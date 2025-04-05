@@ -9,7 +9,6 @@ import dev.hbq2.hud.SuiteData.coordinates
 import dev.hbq2.hud.SuiteData.currentMusic
 import dev.hbq2.hud.SuiteData.fps
 import dev.hbq2.hud.SuiteData.gameTime
-import dev.hbq2.hud.SuiteData.gpu
 import dev.hbq2.hud.SuiteData.latencies
 import dev.hbq2.hud.SuiteData.numberOfPlayers
 import dev.hbq2.hud.SuiteData.pingTitle
@@ -220,7 +219,6 @@ object SuiteLoader {
             Pair(config.biome, config.biome.position),
             Pair(config.music, config.music.position),
             Pair(config.fps, config.fps.position),
-            Pair(config.gpu, config.gpu.position),
             Pair(config.players, config.players.position),
             Pair(config.latency, config.latency.position),
         )
@@ -239,7 +237,6 @@ object SuiteLoader {
             DataType.Biome -> biome
             DataType.Music -> currentMusic
             DataType.FPS -> fps
-            DataType.GPU -> gpu
             DataType.Players -> numberOfPlayers
             DataType.Latency -> pingTitle
         }
